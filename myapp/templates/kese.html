@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% include "header.html"%}
+{% load staticfiles %}
+<section id="hero" class="section ">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-6 hero">
+        <div class="hero-content">
+          <h2>kraft ve desenli keseler</h2>
+        </div>
+        <!-- hero --> 
+      </div>
+      <div class="col-md-5 col-sm-6 hero">
+        <div class="hero-content">
+          <p>Hediyelerinizi paketlerken hayalgücünüzü kullanın ve kendinizden bir şeyler katın.</p>
+        </div>
+        <!-- hero --> 
+      </div>
+    </div>
+  </div>
+</section>
+<!-- portfolio grid section -->
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <hr class="section">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 portfolio-item"> <a class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+          <h2>Dışı kırmızı içi kraft</h2>
+           <h3>Fiyat 2₺</h3>
+          </div>
+        </div>
+        <img src="{% static 'images/kese/kirmizi.jpg'%}" class="img-responsive" alt=""> </a> </div>
+      <div class="col-sm-6 portfolio-item"> <a class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+          <h2>Dışı yeşil içi kırmızı</h2>
+           <h3>Fiyat 1,5₺</h3>
+          </div>
+        </div>
+        <img src="{% static 'images/kese/yesil.jpg'%}" class="img-responsive" alt=""> </a> </div>
+      <div class="col-sm-6 portfolio-item"> <a class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+            <h2>Mint ÇİÇEKLİ</h2>
+           <h3>Fiyat 3₺</h3>
+          </div>
+        </div>
+        <img src="{% static 'images/kese/mint.jpg'%}" class="img-responsive" alt=""> </a> </div>
+      <div class="col-sm-6 portfolio-item">  <a class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+            <h2>VINTAGE GAZETE DESENLİ</h2>
+           <h3>Fiyat 3₺</h3>
+          </div>
+        </div>
+        <img src="{% static 'images/kese/gazete.jpg'%}" class="img-responsive" alt=""> </a> </div>
+   
+     <div class="col-sm-6 portfolio-item"> <a  class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+            <h2>LİLA</h2>
+           <h3>Fiyat 2₺</h3>
+          </div>
+        </div>
+        <img src="{% static 'images/kese/lila.jpg'%}" class="img-responsive" alt=""> </a> </div>
+  
+          <div class="col-sm-6 portfolio-item"> <a  class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+            <h2>SİYAH-BEYAZ PUANTİYELİ/h2>
+           <h3>Fiyat 0,5₺</h3>
+          </div>
+        </div>
+        <img src="{% static 'images/kese/blackdots.jpg'%}" class="img-responsive" alt=""> </a> </div>
+    
+       <div class="col-sm-6 portfolio-item"> <a  class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+            <h2>SİYAH-BEYAZ PETEK DESENLİ</h2>
+           <h3>Fiyat 0,5₺</h3>
+          </div>
+        </div>
+        <img src="{% static 'images/kese/honeycomb.jpg'%}" class="img-responsive" alt=""> </a> </div>
+       <div class="col-sm-6 portfolio-item"> <a  class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+            <h2>KRAFT-BEYAZ PUANTİYELİ</h2>
+           <h3>Fiyat 0,5₺</h3>
+          </div>
+        </div>
+        <img src="{% static 'images/kese/kraftdots.jpg'%}" class="img-responsive" alt=""> </a> </div>
+   <div class="col-sm-6 portfolio-item"> <a  class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+            <h2>GOLD PUANTİYELİ VE KURDELELİ</h2>
+           <h3>Fiyat 3₺</h3>
+          </div>
+        </div>
+        <img src="{% static 'images/kese/gold.jpg'%}" class="img-responsive" alt=""> </a> </div>
+          <div class="col-sm-6 portfolio-item"> <a  class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+            <h2>KALPLİ ÜÇGEN</h2>
+           <h3>Fiyat 2₺</h3>
+          </div>
+        </div>
+        <img src="{% static 'images/kese/ucgen.jpg'%}" class="img-responsive" alt=""> </a> </div>
+          </div>
+  </div>
+</section>
+<!-- portfolio grid section --> 
+<!-- service section -->
+<section id="service" class="service section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-sm-6">
+        <h4>Hediye paketlerinizi güzelleştirecek keselerimiz var.</h4>
+        <p>Yiyeceklerinizi yanınızda taşımak için ya da yaptığınız kurabiyeleri, poğaçaları sevdiklerinize hediye ederken kullanabileceğiniz gıdaya uyumlu tekrar tekrar kullanılabilir keseler sunuyoruz. İsterseniz uygun boyuttaki hediyelerinizi de kolayca paketleyebilirsiniz.</p>
+      </div>
+      <div class="col-md-7 col-sm-6">
+        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-gift"></span>
+          <div class="service-content">
+            <h5>KOLAY HEDİYE PAKETLEME</h5>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-basket"></span>
+          <div class="service-content">
+            <h5>GIDAYA UYGUN</h5>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-envelope"></span>
+          <div class="service-content">
+            <h5>BENZERSİZ TASARIMLAR</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "footer.html"%}
+
+{% endblock %}
+

@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% include "header.html"%}
+{% load staticfiles %}
+<section id="hero" class="section ">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-6 hero">
+        <div class="hero-content">
+          <h2>suluboya tablo</h2>
+        </div>
+        <!-- hero --> 
+      </div>
+      <div class="col-md-5 col-sm-6 hero">
+        <div class="hero-content">
+          <p>Suluboya ile el yapımı, özel kağıt kullanılarak kişiye özel hazırlanan farklı boyutlarda çerçeveler ile şık tablolar.</p>
+        </div>
+        <!-- hero --> 
+      </div>
+    </div>
+  </div>
+</section>
+<!-- portfolio grid section -->
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <hr class="section">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 portfolio-item"> <a class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+           <h2>BEYAZ</h2>
+             <h3>Boyut 25X25cm</h3>
+           <h4>Fiyat 35₺</h4>
+          </div>
+        </div>
+        <img src="{% static 'images/tablo/a.jpg'%}" class="img-responsive" alt=""> </a> </div>
+      <div class="col-sm-6 portfolio-item"> <a class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+             <h2>BEYAZ</h2>
+              <h3>Boyut 15X20cm</h3>
+           <h4>Fiyat 30₺</h4>
+          </div>
+        </div>
+        <img src="{% static 'images/tablo/b.jpg'%}" class="img-responsive" alt=""> </a> </div>
+      <div class="col-sm-6 portfolio-item"> <a class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+           <h2>SİYAH</h2>
+            <h3>Boyut 12X17cm</h3>
+           <h4>Fiyat 25₺</h4>          </div>
+        </div>
+        <img src="{% static 'images/tablo/k.jpg'%}" class="img-responsive" alt=""> </a> </div>
+       <div class="col-sm-6 portfolio-item"> <a  class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+            <h2>BEYAZ</h2>
+            <h3>Boyut 12X17cm</h3>
+           <h4>Fiyat 25₺</h4>
+          </div>
+        </div>
+        <img src="{% static 'images/tablo/sf.jpg'%}" class="img-responsive" alt=""> </a> </div>
+    </div>
+  </div>
+</section>
+<!-- portfolio grid section --> 
+<!-- service section -->
+<section id="service" class="service section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-sm-6">
+        <h4>Kişiye özel suluboya tablolar yapıyoruz.</h4>
+        <p>Harfli tablolarımız ayakta durabildiği için ve söz, nişan masalarınızda ikili olarak kullanabilirsiniz. Sevdiklerinize özel hazırlanmış bir hediye olarak sunabilirsiniz. Yıllarca zarifliğini koruyacak, her duvara yakışacak tablolarımıza isim yazdırabilir, çerçevenin rengini siyah veya beyaz olarak seçebilirsiniz.</p>
+      </div>
+      <div class="col-md-7 col-sm-6">
+        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-paintbrush"></span>
+          <div class="service-content">
+            <h5>SULUBOYA</h5>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-picture"></span>
+          <div class="service-content">
+            <h5>ÇERÇEVELİ</h5>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-gift"></span>
+          <div class="service-content">
+            <h5>KİŞİYE ÖZEL HEDİYE FİKRİ</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "footer.html"%}
+
+{% endblock %}
+

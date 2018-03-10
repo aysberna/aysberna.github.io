@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% include "header.html"%}
+{% load staticfiles %}
+<section id="hero" class="section ">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-6 hero">
+        <div class="hero-content">
+          <h2>pirinç mühür ve balmumu</h2>
+        </div>
+        <!-- hero --> 
+      </div>
+      <div class="col-md-5 col-sm-6 hero">
+        <div class="hero-content">
+          <p>Nostalji sevenler için hediye paketleme ve davetiyede kullanmaya uygun pirinç mühür ve balmumu.</p>   
+        </div>
+        <!-- hero --> 
+      </div>
+    </div>
+  </div>
+</section>
+<!-- portfolio grid section -->
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <hr class="section">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 portfolio-item"> <a class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+           <h2>A HARFI</h2>
+           <h3>Fiyat 60₺</h3>
+          </div>
+        </div>
+        <img src="{% static 'images/muhur/a.jpg'%}" class="img-responsive" alt=""> </a> </div>
+      <div class="col-sm-6 portfolio-item"> <a class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+          <h2>K HARFI</h2>
+           <h3>Fiyat 60₺</h3>
+          </div>
+        </div>
+        <img src="{% static 'images/muhur/k.jpg'%}" class="img-responsive" alt=""> </a> </div>
+      <div class="col-sm-6 portfolio-item"> <a class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+            <h2>Z HARFI</h2>
+           <h3>Fiyat 60₺</h3>
+          </div>
+        </div>
+        <img src="{% static 'images/muhur/z.jpg'%}" class="img-responsive" alt=""> </a> </div>
+       <div class="col-sm-6 portfolio-item"> <a class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+          <h2>T HARFI</h2>
+           <h3>Fiyat 60₺</h3>
+         
+          </div>
+        </div>
+        <img src="{% static 'images/muhur/t.jpg'%}" class="img-responsive" alt=""> </a> </div>
+     <div class="col-sm-6 portfolio-item"> <a class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+          <h2>R HARFI</h2>
+           <h3>Fiyat 60₺</h3>
+          </div>
+        </div>
+        <img src="{% static 'images/muhur/r.jpg'%}" class="img-responsive" alt=""> </a> </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- portfolio grid section --> 
+<!-- service section -->
+<section id="service" class="service section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-sm-6">
+        <h4>Pirinç mühür ve balmumu.</h4>
+        <p>Standart pirinç mühürlerimizi stoktaki istediğiniz renk balmumu ile set haline getirebilir, şık kutusuyla sevdiklerinize özel bir hediye verebilirsiniz.</p>
+      </div>
+      <div class="col-md-7 col-sm-6">
+        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-aperture"></span>
+          <div class="service-content">
+            <h5>Tek Harf Mühürler</h5>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-bargraph"></span>
+          <div class="service-content">
+            <h5>Renkli Balmumları</h5>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-magnifying-glass"></span>
+          <div class="service-content">
+            <h5>Mühür Kaşıkları</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "footer.html"%}
+
+{% endblock %}
+
+<!--    <div class="col-md-4 col-sm-6 service text-center "> <span class="icon icon-basket"></span>
+          <div class="service-content">
+            <h5>Satın almak için tıklayın!</h5>
+          </div>
+        </div>
+    -->
+

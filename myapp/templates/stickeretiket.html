@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% include "header.html"%}
+{% load staticfiles %}
+<section id="hero" class="section ">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-6 hero">
+        <div class="hero-content">
+          <h1>Sticker ve Etiket</h1>
+        </div>
+        <!-- hero --> 
+      </div>
+      <div class="col-md-5 col-sm-6 hero">
+        <div class="hero-content">
+          <p>Hediyelerinizi paketlerken hayalgücünüzü kullanın ve kendinizden bir şeyler katın.</p>
+        </div>
+        <!-- hero --> 
+      </div>
+    </div>
+  </div>
+</section>
+<!-- portfolio grid section -->
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <hr class="section">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 portfolio-item"> <a class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+          <h2>Yuvarlak Gold</h2>
+           <h3>Fiyat 2₺</h3>
+          </div>
+        </div>
+        <img src="{% static 'images/stickeretiket/goldyuvarlak.jpg'%}" class="img-responsive" alt=""> </a> </div>
+      <div class="col-sm-6 portfolio-item"> <a class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+          <h2>Yuvarlak Handmade</h2>
+           <h3>Fiyat 1,5₺</h3>
+          </div>
+        </div>
+        <img src="{% static 'images/stickeretiket/hm1.jpg'%}" class="img-responsive" alt=""> </a> </div>
+      <div class="col-sm-6 portfolio-item"> <a class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+            <h2>Kraft Handmade</h2>
+           <h3>Fiyat 2₺</h3>
+          </div>
+        </div>
+        <img src="{% static 'images/stickeretiket/hm2.jpg'%}" class="img-responsive" alt=""> </a> </div>
+      <div class="col-sm-6 portfolio-item">  <a class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+            <h2>Kraft Handmade Kare</h2>
+           <h3>Fiyat 2₺</h3>
+          </div>
+        </div>
+        <img src="{% static 'images/stickeretiket/hm3.jpg'%}" class="img-responsive" alt=""> </a> </div>
+    </div>
+     <div class="col-sm-6 portfolio-item"> <a  class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+            <h2>Yuvarlak Thank You</h2>
+           <h3>Fiyat 1,5₺</h3>
+          </div>
+        </div>
+        <img src="{% static 'images/stickeretiket/thankyoukesik.jpg'%}" class="img-responsive" alt=""> </a> </div>
+          <div class="col-sm-6 portfolio-item"> <a  class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+            <h2>Kalpli Thank You</h2>
+           <h3>Fiyat 1,5₺</h3>
+          </div>
+        </div>
+        <img src="{% static 'images/stickeretiket/ty2.jpg'%}" class="img-responsive" alt=""> </a> </div>
+    </div>
+    </div>
+  </div>
+</section>
+<!-- portfolio grid section --> 
+<!-- service section -->
+<section id="service" class="service section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-sm-6">
+        <h4>Hediye paketlerinizi konuşturacak etiketler ve stickerlar yapıyoruz.</h4>
+        <p>İsterseniz az miktarda kişisel kullanım için isterseniz çok miktarda markanız için sticker ve etiket seçenekleri sunuyoruz. Logonuzu birlikte tasarlayabilir ya da mevcut logonuzu baskıya uygun hale getirebiliriz.</p>
+      </div>
+      <div class="col-md-7 col-sm-6">
+        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-pricetags"></span>
+          <div class="service-content">
+            <h5>KRAFT VEYA KUŞE ETIKET</h5>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-printer"></span>
+          <div class="service-content">
+            <h5>MARKAYA VEYA KİŞİYE ÖZEL BASKI</h5>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-layers"></span>
+          <div class="service-content">
+            <h5>İSTENİLEN MİKTARDA SATIŞ</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "footer.html"%}
+
+{% endblock %}
+

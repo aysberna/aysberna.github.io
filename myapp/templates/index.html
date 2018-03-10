@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% include "header.html"%}
+{% load staticfiles %}
+
+
+<section id="hero" class="section ">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-6 hero">
+        <div class="hero-content">
+          <h2>kişiye özel hediye paketleme fikirleri-kağıt işleri.</h2>
+        </div>
+        <!-- hero --> 
+      </div>
+      <div class="col-md-5 col-sm-6 hero">
+        <div class="hero-content">
+          <p>Hayallerinizi birlikte gerçekleştirmelik, daha da ötesi mutluluğu paylaşmalık bir şeyler yapmak için ince bir fikrimiz var, hatta çok fikrimiz var :) </p>
+        </div>
+        
+        <!-- hero --> 
+      </div>
+    </div>
+  </div>
+</section>
+<!-- portfolio grid section -->
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <hr class="section">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 portfolio-item"> <a href="/muhur" class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+            <h3>MÜHÜR</h3>
+            <h4>pirinç mühür & balmumu </h4>
+          </div>
+        </div>
+        <img src="{% static 'images/portfolio/p6.jpg'%}" class="img-responsive" alt=""> </a> </div>
+      <div class="col-sm-6 portfolio-item"> <a href="/tablo" class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+           <h3>TABLO</h3>
+            <h4>Suluboya tablo</h4>
+          </div>
+        </div>
+        <img src="{% static 'images/portfolio/p.jpg'%}" class="img-responsive" alt=""> </a> </div>
+      <div class="col-sm-6 portfolio-item"> <a href="/stickeretiket" class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+          	 <h3>STICKER</h3>
+            <h4>Kraft-Gold-Özel Tasarım</h4>
+          </div>
+        </div>
+        <img src="{% static 'images/portfolio/p3.jpg'%}" class="img-responsive" alt=""> </a> </div>
+      <div class="col-sm-6 portfolio-item"> <a href="/video" class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+            <h3>VIDEO</h3>
+            <h4>Paketleme Fikirleri</h4>
+          </div>
+        </div>
+        <img src="{% static 'images/portfolio/p5.jpg'%}" class="img-responsive" alt=""> </a> </div>
+      <div class="col-sm-6 portfolio-item"> <a href="/kagitip" class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+            <h3>KAĞIT</h3>
+            <h4>Paketleme Kağıtları</h4>
+          </div>
+        </div>
+        <img src="{% static 'images/portfolio/p2.jpg'%}" class="img-responsive" alt=""> </a> </div>
+      <div class="col-sm-6 portfolio-item"> <a href="/kese" class="portfolio-link">
+        <div class="caption">
+          <div class="caption-content">
+            <h3>KESE</h3>
+            <h4>Paketleme Keseleri</h4>
+          </div>
+        </div>
+        <img src="{% static 'images/portfolio/p4.jpg'%}" class="img-responsive" alt=""> </a> </div>
+    </div>
+  </div>
+</section>
+<!-- portfolio grid section --> 
+<!-- service section -->
+<section id="service" class="service section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-sm-6">
+        <h4>Paketlerinizi özelleştirmeniz için seçenekler sunuyoruz.</h4>
+        <p>Hediye paketleriniz veya markanız için şık, farklı, özel tasarımlar yapıyoruz.</p>
+      </div>
+      <div class="col-md-7 col-sm-6">
+        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-pencil"></span>
+          <div class="service-content">
+            <h5>KİŞİYE VE MARKAYA ÖZEL BASKI</h5>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-gift"></span>
+          <div class="service-content">
+            <h5>HEDİYE FİKİRLERİ</h5>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-paintbrush"></span>
+          <div class="service-content">
+            <h5>EL EMEĞİ</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "footer.html"%}
+
+{% endblock %}
+
